@@ -4,6 +4,7 @@ import AboutCard from './components/AboutCard/AboutCard'
 import Artist from './components/Artist/Artist'
 import Card from './components/Card/Card'
 import Hero from './components/Hero/Hero'
+import HotCard from './components/HotCard/HotCard'
 import Navbar from './components/Navbar/Navbar'
 import OutlineButton from './components/OutlineButton/OutlineButton'
 import Sponsors from './components/Sponsors/Sponsors'
@@ -69,6 +70,16 @@ function App() {
           <OutlineButton name="More"></OutlineButton>
         
         </div>
+      </div>
+      {/* HOT */}
+      <div className="hot-card">
+      <HotCard></HotCard>
+      <HotCard></HotCard>
+      <HotCard></HotCard>
+      <HotCard></HotCard>
+      <HotCard></HotCard>
+      <HotCard></HotCard>
+
       </div>
     </div>
   )

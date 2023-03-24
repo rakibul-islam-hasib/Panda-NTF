@@ -34,6 +34,11 @@
 .live-btn button {
     margin-left: 10px;
 }
+.hot-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
 /* responsive css */
 @media screen and (max-width: 768px) {
     .about-card {
