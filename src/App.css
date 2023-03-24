@@ -4,19 +4,30 @@
     margin-top: 20px;
 }
 .about-card {
-    max-width: 85%;
+    max-width: 90%;
     margin: 0 auto;
-    padding: 15px;
+    padding: 25px 0px;
     display: flex;
     gap: 20px;
 }
-
+.live-auction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 100px; */
+    max-width: 90%;
+    margin: 100px auto 70px auto;
+}
+.card-part {
+    display: flex;
+    justify-content: space-between;
+}
 /* responsive css */
 @media screen and (max-width: 768px) {
     .about-card {
         flex-direction: column;
-        /* flex-wrap: wrap; */
-        /* margin-top: 20px; */
-        /* gap: 10px; */
+    }
+    .live-auction {
+        flex-direction: column;
     }
 }
