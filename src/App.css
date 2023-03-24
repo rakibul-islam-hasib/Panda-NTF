@@ -22,12 +22,30 @@
     display: flex;
     justify-content: space-between;
 }
+.artist-card-part {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.live-btn {
+    display: flex;
+    /* margin-left: 10px; */
+}
+.live-btn button {
+    margin-left: 10px;
+}
 /* responsive css */
 @media screen and (max-width: 768px) {
     .about-card {
         flex-direction: column;
     }
     .live-auction {
+        flex-direction: column;
+    }
+    .card-part {
+        flex-direction: column;
+    }
+    .artist-card-part {
         flex-direction: column;
     }
 }

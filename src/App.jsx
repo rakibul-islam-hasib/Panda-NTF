@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 import './App.css'
 import AboutCard from './components/AboutCard/AboutCard'
+import Artist from './components/Artist/Artist'
 import Card from './components/Card/Card'
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
@@ -44,6 +45,29 @@ function App() {
         </div>
         <div className="live-auction-btn">
           <OutlineButton name="View More"></OutlineButton>
+        </div>
+      </div>
+      {/* artist card part */}
+      <div className="artist-card-part">
+        {/* <Card></Card> */}
+        <Artist name="CryptoPunks" view="818.7K"></Artist>
+        <Artist name="Doodles" view="74.9K"></Artist>
+        <Artist name="Bored Ape" view="378.7K"></Artist>
+        <Artist name="Capsule House" view="19.3K"></Artist>
+      </div>
+      {/* HOT nft */}
+      <div className="live-auction">
+        <div className="live-auction-title">
+          <h1>Hot NFTs</h1>
+        </div>
+        <div className="live-btn">
+          <OutlineButton name="Music"></OutlineButton>
+          <OutlineButton name="Art"></OutlineButton>
+          <OutlineButton name="Sports"></OutlineButton>
+          <OutlineButton name="Virtual"></OutlineButton>
+          <OutlineButton name="Videos"></OutlineButton>
+          <OutlineButton name="More"></OutlineButton>
+        
         </div>
       </div>
     </div>
