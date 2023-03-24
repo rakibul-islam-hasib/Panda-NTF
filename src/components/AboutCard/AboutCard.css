@@ -3,7 +3,10 @@
     background-color: #272D37;
     text-align: center;
     border-radius: 16px;
+    margin: 10px;
     border: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    height: 100%;
 }
 .cardBody:hover {
     background-color: #1E232C;
@@ -13,6 +16,10 @@
     width: 50px;
     height: 50px;
 }
+.card-text h1 {
+    font-size: 1.7em;
+}
 .card-text p{
     color: #ADB9C7;
+    font-size: 0.9em;
 }

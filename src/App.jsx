@@ -18,9 +18,9 @@ function App() {
         <h1>Create and sell your <br /> NFTs</h1>
       </div>
       <div className="about-card">
-        <AboutCard></AboutCard>
-        <AboutCard></AboutCard>
-        <AboutCard></AboutCard>
+        <AboutCard name="Set up your wallet"></AboutCard>
+        <AboutCard name="Add your NFTs"></AboutCard>
+        <AboutCard name="List them for sale"></AboutCard>
       </div>
     </div>
   )
