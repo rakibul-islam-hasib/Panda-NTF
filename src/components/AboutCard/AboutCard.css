@@ -1,0 +1,18 @@
+.cardBody {
+    padding: 20px 30px;
+    background-color: #272D37;
+    text-align: center;
+    border-radius: 16px;
+    border: 0;
+}
+.cardBody:hover {
+    background-color: #1E232C;
+    border: 1px solid #4973c1;
+}
+.cardImg img {
+    width: 50px;
+    height: 50px;
+}
+.card-text p{
+    color: #ADB9C7;
+}

@@ -3,3 +3,10 @@
     font-size: 3.2em;
     margin-top: 20px;
 }
+.about-card {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}

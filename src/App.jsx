@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
+import AboutCard from './components/AboutCard/AboutCard'
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
 import Sponsors from './components/Sponsors/Sponsors'
@@ -15,6 +16,11 @@ function App() {
       </div>
       <div className="title">
         <h1>Create and sell your <br /> NFTs</h1>
+      </div>
+      <div className="about-card">
+        <AboutCard></AboutCard>
+        <AboutCard></AboutCard>
+        <AboutCard></AboutCard>
       </div>
     </div>
   )
