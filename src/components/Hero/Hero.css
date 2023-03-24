@@ -1,0 +1,35 @@
+.hero-section {
+    display: flex;
+    position: relative;
+
+}
+.hero-text h1 {
+    font-size: 4em;
+}
+.hero-text p{
+    color: #ADB9C7;
+}
+img {
+    width: 100%;
+}
+.hero-text button {
+    background-color: #1E50FF;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 16px;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card-low {
+    opacity: 0.3;
+    position: absolute;
+    z-index: 1;
+    right: -10px;
+    top: 10px;
+}
+.card-high {
+    z-index: 2;
+    margin-right: 200px;
+}
