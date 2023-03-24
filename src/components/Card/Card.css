@@ -53,3 +53,23 @@
 .card-sm-text p {
     color: #8F9CA9;
 }
+.card-offer-img img {
+    width:  25px;
+    height: 25px;
+}
+.card_images {
+    position: relative;
+}
+.card-offer-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 16px;
+    width: 200px;
+    height: 50px;
+    background-color: #0F182E;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}

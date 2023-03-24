@@ -22,16 +22,34 @@
 .nav ul {
     display: flex;
     list-style: none;
+    padding: 10px;
 }
 .nav ul li:nth-child(1) {
     margin-left: 0px;
 }
 .nav ul li {
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin: 0 15px;
+    padding: 10px 0px;
+    transition: 2s;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #1E50FF;
 }
 .btn button {
     border: 2px solid #1E50FF;
     background-color: transparent;
     padding: 12px 25px;
     border-radius: 16px;
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        flex-direction: column;
+    }
+    .nav {
+        display: none;
+    }
 }

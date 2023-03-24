@@ -33,3 +33,12 @@ img {
     z-index: 2;
     margin-right: 200px;
 }
+
+@media screen and (max-width:576px) {
+    .hero-section {
+        flex-direction: column;
+    }
+    .card-low {
+        display: none;
+    }
+}
